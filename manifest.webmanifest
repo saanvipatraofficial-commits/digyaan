@@ -1,0 +1,12 @@
+{
+  "name": "Digyaan Learn",
+  "short_name": "Digyaan",
+  "description": "Free coding and AI lessons for students, in Telugu, Hindi, Urdu and English.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbfcf8",
+  "theme_color": "#1f3a93",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
