@@ -11,12 +11,12 @@
   <meta property="og:description" content="Free coding and AI lessons for students, in your own language.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://YOUR-SITE.vercel.app/">
-  <meta name="theme-color" content="#1F3A93">
+  <meta name="theme-color" content="#2340A8">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Baloo+Tammudu+2:wght@400;600;700&family=Baloo+Bhaijaan+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
@@ -33,11 +33,14 @@
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="topbar">
-    <a class="brand" href="#" aria-label="Digyaan Learn home">
-      <img src="icon.svg" alt="" width="36" height="36">
-      <span>Digyaan Learn</span>
-    </a>
-    <nav class="langs" aria-label="Language" id="langs"></nav>
+    <div class="topbar-inner">
+      <a class="brand" href="#" aria-label="Digyaan Learn home">
+        <img src="icon.svg" alt="" width="32" height="32">
+        <span>Digyaan Learn</span>
+      </a>
+      <nav class="tabbar" id="tabbar" aria-label="Main"></nav>
+      <div class="langs" role="group" aria-label="Language" id="langs"></div>
+    </div>
   </header>
 
   <div class="offline-bar" id="offline" hidden></div>
@@ -49,9 +52,7 @@
     </noscript>
   </main>
 
-  <nav class="tabbar" id="tabbar" aria-label="Main"></nav>
-
-  <footer class="foot" id="foot"></footer>
+  <footer class="foot"><div class="foot-inner" id="foot"></div></footer>
 
   <script src="js/i18n.js"></script>
   <script src="js/lessons.js"></script>

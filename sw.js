@@ -1,6 +1,6 @@
 // Keeps lessons working on lab PCs when the internet drops.
 // Change the version number whenever you update the site, so students get the new files.
-const CACHE = "digyaan-v1";
+const CACHE = "digyaan-v2";
 const FILES = [
   "./",
   "index.html",
@@ -9,6 +9,7 @@ const FILES = [
   "js/lessons.js",
   "js/app.js",
   "icon.svg",
+  "img/hero.svg",
   "manifest.webmanifest",
 ];
 
